@@ -31,7 +31,7 @@ class Person {
 class Student extends Person {
     // Method to simulate studying
     study() {
-        console.log(`${this.name} is studying.`);
+        console.log(`${this.name} should study.`);
     }
 }
 
@@ -39,7 +39,7 @@ class Student extends Person {
 class Teacher extends Person {
     // Method to simulate teaching
     teach() {
-        console.log(`${this.name} is teaching.`);
+        console.log(`${this.name} should teach.`);
     }
 }
 
